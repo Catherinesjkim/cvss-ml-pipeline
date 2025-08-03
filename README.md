@@ -1,6 +1,7 @@
 🔐 CVSS-Based Vulnerability Risk Scoring with Synthetic Data & ML
 
 ✅ Project Overview
+
 This project demonstrates how to automate vulnerability risk scoring using synthetic data, CVSS-like features, and machine learning.
 The solution simulates a Rapid7-style ML pipeline for predicting exploit availability of vulnerabilities.
 Key highlights:
