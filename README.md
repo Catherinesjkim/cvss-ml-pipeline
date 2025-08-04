@@ -1,5 +1,6 @@
 🔐 CVSS-Based Vulnerability Risk Scoring with Synthetic Data & ML
 
+
 ✅ Project Overview
 
 This project demonstrates how to automate vulnerability risk scoring using synthetic data, CVSS-like features, and machine learning.
@@ -11,6 +12,7 @@ Generates a synthetic dataset mimicking NVD/Rapid7 CVE data
 Trains a Random Forest model to predict exploit likelihood
 
 Provides a foundation for AWS SageMaker pipeline integration
+
 
 
 ✅ Dataset Description
@@ -49,6 +51,7 @@ Provides a foundation for AWS SageMaker pipeline integration
 [SageMaker Endpoint]
    - Real-Time Exploitability Prediction API
 (This notebook simulates the data prep and ML modeling stage. SageMaker deployment can be added later.)
+
 
 
 ✅ Steps to Run the Notebook
