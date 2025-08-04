@@ -15,16 +15,19 @@ Provides a foundation for AWS SageMaker pipeline integration
 
 ✅ Dataset Description
 
-Feature Name	            Description	                                                Example Values
----------------------------------------------------------------------------------------------------------------
-cve_id	                  Unique identifier for the vulnerability	                    CVE-2025-0001
-attack_vector (AV)	      How the vulnerability can be exploited	                    NETWORK, ADJACENT, LOCAL
-attack_complexity (AC)	  Complexity of the attack	                                  LOW, HIGH
-privileges_required (PR)	Level of privileges required	                              NONE, LOW, HIGH
-user_interaction (UI)	    Whether user interaction is required	                      NONE, REQUIRED
-base_score	              CVSS Base Score (0.0 to 10.0)	                              7.5, 4.3
-days_since_disclosure	    Number of days since vulnerability was disclosed	          1, 180
-exploit_available	        Target variable (whether an exploit is publicly available)	0 (No), 1 (Yes)
+## CVE Feature Descriptions
+
+| **Feature Name**          | **Description**                                           | **Example Values**                     |
+|---------------------------|-----------------------------------------------------------|----------------------------------------|
+| `cve_id`                  | Unique identifier for the vulnerability                    | `CVE-2025-0001`                       |
+| `attack_vector (AV)`      | How the vulnerability can be exploited                     | `NETWORK`, `ADJACENT`, `LOCAL`        |
+| `attack_complexity (AC)`  | Complexity of the attack                                   | `LOW`, `HIGH`                         |
+| `privileges_required (PR)`| Level of privileges required                               | `NONE`, `LOW`, `HIGH`                 |
+| `user_interaction (UI)`   | Whether user interaction is required                       | `NONE`, `REQUIRED`                    |
+| `base_score`              | CVSS Base Score (0.0 to 10.0)                              | `7.5`, `4.3`                          |
+| `days_since_disclosure`   | Number of days since vulnerability was disclosed           | `1`, `180`                            |
+| `exploit_available`       | Target variable (whether an exploit is publicly available) | `0` (No), `1` (Yes)                   |
+
 
 
 ✅ Architecture Diagram
